@@ -162,7 +162,7 @@
     display: flex;
     width: 70%;
     position: absolute;
-    left: 286px;
+    left: 270px;
     justify-content: center;
     display: inline-block;
     border: 1px solid rgb(234, 208, 208);
@@ -431,6 +431,13 @@ ul {
     display: none;
 }
 
+@media (max-width:1000px) {
+    .hoverdetails.active {
+        left: 200px;
+    }
+
+}
+
 @media (max-width:855px) {
 
     .ExpendOption,
@@ -450,12 +457,6 @@ ul {
     .menu-btn {
         top: 0;
         display: block;
-    }
-}
-
-@media (max-width:1000px) {
-    .ExpendOption {
-        display: none;
     }
 }
 
