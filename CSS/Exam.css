@@ -12,6 +12,7 @@
     margin-top: 20px;
     border-radius: 3px;
 }
+
 .MidTermHeading,
 .Applied {
     background-color: rgb(194, 218, 237);
@@ -335,9 +336,11 @@
 .ins {
     margin-left: 10px;
 }
-.FeeInner a{
+
+.FeeInner a {
     color: white;
 }
+
 .elegible select {
     font-size: 12px;
     width: 50%;
@@ -400,50 +403,65 @@
 .AppliedBack.active1 {
     display: block;
 }
-.ele{
+
+.ele {
     height: 1150px;
 }
-.res{
+
+.res {
     padding: 10px;
     border: 0px;
 }
-.res .ResultTable .MidTermHeading{
+
+.res .ResultTable .MidTermHeading {
     text-align: left;
     width: 1748px;
 }
-.res .ResultTable{
+
+.res .ResultTable {
     border: 1px solid gray;
     border-radius: 4px;
     padding: 0px;
 }
-.re1{
+
+.re1 {
     margin-top: 60px;
 }
-.resume{
+
+.resume {
     margin: 10px;
     margin-top: -10px;
     margin-bottom: 20px;
     border: 1px solid gray;
     border-radius: 3px;
 }
-.uploadoption{
-    background-color:  #f5f5f5;;
+
+.uploadoption {
+    background-color: #f5f5f5;
+    ;
     padding: 30px;
     margin: 20px;
     border-radius: 5px;
     text-align: center;
 }
-@media (max-width:950px) {
+
+@media (max-width:1000px) {
 
     .MidTerm,
     .Result,
     .choice,
     .backpapers {
         width: 97%;
+        margin: auto;
+        margin-top: 15px;
+        margin-right: 7px;
+        margin-bottom: 10px;
     }
-    .ele{
+
+    .ele {
         height: auto;
     }
+
     .backdetails,
     .perdetails {
         width: 80%;
@@ -458,21 +476,26 @@
         text-align: left;
     }
 }
-.visit{
+
+.visit {
     min-height: 400px;
     border: 0.5px solid rgb(206, 195, 195);
     border-radius: 3px;
 }
-#app1{
+
+#app1 {
     width: 1143px;
 }
-#app2{
+
+#app2 {
     width: 932px;
 }
-.indexterm{
+
+.indexterm {
     font-size: 20px;
     text-align: center;
 }
+
 @media (max-width:700px) {
     .MidNameBox {
         width: 95%;
@@ -486,8 +509,8 @@
     }
 }
 
-@media (max-width:700px){
-    .abtn1{
+@media (max-width:700px) {
+    .abtn1 {
         margin-top: 20px;
         width: 100%;
     }

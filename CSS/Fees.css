@@ -285,7 +285,7 @@ th.feehead {
     }
 }
 
-@media (max-width: 950px) {
+@media (max-width: 1000px) {
     .Fee-Navigation {
         width: 100%;
         height: auto;
@@ -456,9 +456,12 @@ th.feehead {
 }
 
 
-@media (max-width:950px) {
+@media (max-width:1000px) {
     .feesreciept {
         width: 97%;
-        margin-bottom: 20px;
+        margin: auto;
+        margin-top: 15px;
+        margin-right: 7px;
+        margin-bottom: 10px;
     }
 }

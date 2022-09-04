@@ -326,6 +326,7 @@
     margin-top: 20px;
     border-radius: 4px;
 }
+
 .term1 {
     width: 60%;
 }
@@ -378,13 +379,18 @@
 
 
 
-@media (max-width:950px) {
+@media (max-width:1000px) {
 
     .Attendence,
     .TimeTable,
-    .EnrollmentForm {
+    .EnrollmentForm,
+    .SemesterRegistration,
+    .feedback1 {
         width: 97%;
-        margin-left: 20px;
+        margin: auto;
+        margin-top: 15px;
+        margin-right: 5px;
+        margin-bottom: 10px;
     }
 
     .StudentInfo,
