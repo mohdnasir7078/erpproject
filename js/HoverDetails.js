@@ -1,5 +1,6 @@
 var ele1, sh1 = true, ele2, sh2 = true, ele3, sh3 = true;
 var ele4, ele5, sh4 = true, sh5 = true;
+var hideelement, element, element1;
 function show1() {
     if (sh1) {
         ele1 = document.getElementById("1");
@@ -78,7 +79,21 @@ function myFunction1() {
         temp1 = true;
     }
 }
+var hide2 = true, hideelement1, hideelement2;
 
+function toggle1() {
+    if (hide2) {
+        hideelement1 = document.getElementById("feenavshow");
+        hideelement1.classList.add("active");
+        hideelement2 = document.getElementById("navshowbtn");
+        hideelement2.classList.add("active1");
+        hide2 = false;
+    } else {
+        hideelement1.classList.remove("active");
+        hideelement2.classList.remove("active1");
+        hide2 = true;
+    }
+}
 function toggle() {
 
     if (hide1) {

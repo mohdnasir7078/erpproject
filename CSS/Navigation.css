@@ -421,7 +421,8 @@ a {
     font-size: 20px;
 }
 
-#click {
+#click,
+#click1 {
     display: none;
 }
 
@@ -429,6 +430,42 @@ ul {
     background-color: red;
     margin-top: 100px;
     display: none;
+}
+
+.navshow:hover {
+    background-color: white;
+    color: black;
+}
+#down{
+    font-size: 30px;
+    margin-left: 10px;
+}
+#menu-btn1 {
+    display: block;
+    float: left;
+    margin: 1px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+#click1:checked~.menu-btn1 i:before {
+    content: "\f00d";
+    color: white;
+    font-size: 20px;
+}
+.navshow1{
+    display: none;
+}
+
+.navshow1.active1 {
+    float: right;
+    margin-right: 10px;
+    position: absolute;
+    right: 0px;
+}
+
+.Fee-Navigation.active {
+    display: block;
 }
 
 @media (max-width:1000px) {
@@ -443,6 +480,9 @@ ul {
     .ExpendOption,
     .navright {
         display: none;
+    }
+    .navshow1{
+        display: block;
     }
 
     #click:checked~.menu-btn i:before {
