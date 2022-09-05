@@ -377,7 +377,14 @@
     margin-top: 2px;
 }
 
+.from-menu-bar {
+    border: 0px;
+}
 
+.from-menu-bar .term {
+    margin: 0px;
+    font-size: 15px;
+}
 
 @media (max-width:1000px) {
 

@@ -153,10 +153,11 @@
 
 .hoverdetails {
     position: absolute;
-    visibility: hidden;
+    display: none;
 }
 
 .hoverdetails.active {
+    z-index: 1;
     visibility: visible;
     padding-left: 10px;
     display: flex;
@@ -332,6 +333,7 @@ a {
 }
 
 .mobileExpendOption {
+    z-index: 1;
     transition: 100s;
     display: none;
     width: 100%;
@@ -463,6 +465,17 @@ ul {
     position: absolute;
     right: 0px;
 }
+.feeslogo {
+    display: inline-block;
+    height: 60px;
+    width: 21%;
+}
+
+.feeslogoimg {
+    height: 60px;
+    width: 100%;
+}
+
 
 .Fee-Navigation.active {
     display: block;
@@ -472,6 +485,10 @@ ul {
     .hoverdetails.active {
         left: 200px;
     }
+    .feeslogo {
+        width: 201px;
+    }
+
 
 }
 
